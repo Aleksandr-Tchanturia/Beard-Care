@@ -1,3 +1,128 @@
-.logo {
-    max-width: 20%;
+.header-background { 
+    max-width: 1500px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a5a2f6;
 }
+.logo {
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 180px;
+    margin-left: 10px;
+}
+.nav-ul {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 250px;
+    font-size: 18px;
+  }
+  .nav-li {
+    margin-right: 20px;
+    color: #04011b;
+  }
+  
+/* section2 */
+.section-2 {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ff8088;
+  }
+  .text-block {
+    margin-top: 10px;
+    text-align: center;
+    max-width: 700px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-block-h2 {
+    font-size: 20px;
+    margin-bottom: 17px;
+    color: #3d37f1;
+  }
+  .text-block-h3 {
+    font-size: 40px;
+    margin-bottom: 21px;
+    color: #5a5454;
+  }
+  
+  
+  /* boxes */
+  .boxes {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .box-image {
+    width: 220px;
+    height: 220px;
+  }
+  .box-h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  .box-p {
+    width: 150px;
+    font-size: 14px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .color-box {
+    width: 70px;
+    height: 25px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .color-box-p {
+    color: #ffffff;
+  }
+  
+  .box:nth-child(1) {
+    background-color: #fbba77;
+  }
+  .box:nth-child(2) {
+    background-color: #41eae3;
+  }
+  .box:nth-child(3) {
+    background-color: #69529f;
+  }
+  .box:nth-child(4) {
+    background-color: #4386d2;
+  }
+  .box:nth-child(5) {
+    background-color: #a5a2f6;
+  }
+  .box:nth-child(6) {
+    background-color: #ff8088;
+  }
+  
+  .color-box:hover {
+    background-color: #e6e6e6;
+  }
