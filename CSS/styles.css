@@ -24,8 +24,8 @@
 }
 .logo {
     max-width: 100%;
-    width: 80px;
-    height: 80px;
+    width: 110px;
+    height: 110px;
    /* margin-bottom: 180px;*/
     margin-left: 20px;
     /*background-color: #3d37f1;*/
@@ -362,8 +362,8 @@ height: 400px;
   }
   
   .footerlogo {
-      width: 80px;
-      height: 80px;
+      width: 120px;
+      height: 120px;
       margin-bottom: 26px;
       margin-left: 10px;
      margin-top: 25px;
