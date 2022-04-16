@@ -103,7 +103,7 @@
    
    /* boxes */
    .boxes {
-     max-width: 1800px;
+     max-width: 1600px;
      width: 80%;
      display: flex;
      flex-wrap: wrap;
@@ -272,6 +272,11 @@
    background-color: #b6b4b4;
    max-width: 1800px;
    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
   
  }
  
@@ -301,7 +306,7 @@
    max-width: 1600px;
    width: 100%;
    margin-top: 70px;
- 
+   flex-wrap: wrap;
  }
  
  .text-area-form {
@@ -336,6 +341,7 @@
  }
  .left-block-form {
    max-width: 380px;
+   display: flex;
  }
  
  .input-form {
@@ -368,6 +374,9 @@
        color: rgb(15, 15, 15);
        background-color: rgb(187, 185, 185);
        display: flex;
+       
+     flex-wrap: wrap;
+     
    }
    
    .footertext { 
@@ -387,7 +396,7 @@
    }
      
    .footer-block1 { 
-     width: 100px;
+     max-width: 100px;
     
      margin-left: 20px;
      /*background-color: #72e30f;*/
@@ -401,6 +410,7 @@
      /*background-color: #e30f1d;*/
      max-width: 700px;
      width: 100%;
+     flex-wrap: wrap;
  
    }
    .companytext{
