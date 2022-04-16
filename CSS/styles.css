@@ -21,6 +21,7 @@
     justify-content: space-between;
     align-items: center;
    background-color: rgb(187, 185, 185);
+   position: relative;
 }
 .logo {
     max-width: 100%;
@@ -55,11 +56,13 @@
     color: blue;
     font-size: 18px;
   }
-  .bar-icon {
-    color: white;
-    font-size: 32px;
+  .toggle-button {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 30px;
+    color:brown;
     display: none;
-    background-color: blue;
   }
   
 /* section2 */
@@ -117,6 +120,8 @@
     align-items: center;
     flex-direction: column;
     margin: 20px;
+    border: 2px solid grey;
+    border-radius: 25px;
   }
   .box-image {
     width: 220px;
@@ -210,7 +215,9 @@
   width: 100%;
   height: 400px;
   margin-top: 38px;
- background-color: #5a5454;
+  /*background-color: #5a5454;*/
+  border-style: solid;
+  border-color: red;
 }
 
 .text-1 {
@@ -241,6 +248,9 @@
   margin-top: 38px;
   align-items: center;
  /* background-color: #3d37f1;*/
+ border: 3px solid grey;
+ background-color: #eee;
+ box-shadow: 10px 4px 10px 3px #888;
 }
 .img1 {
 margin-left: auto;
@@ -259,8 +269,8 @@ height: 400px;
 /* contact section */
 
 .contactB {
-  background-color: #5a5454;
-  max-width: 1600px;
+  background-color: #b6b4b4;
+  max-width: 1800px;
   width: 100%;
  
 }
@@ -291,7 +301,7 @@ height: 400px;
   max-width: 1600px;
   width: 100%;
   margin-top: 70px;
-  background-color: #27065b;
+
 }
 
 .text-area-form {
