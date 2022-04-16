@@ -218,6 +218,7 @@
   font-size: 18px;
   text-align: center;
   font-family: "BPG Boxo-Boxo", sans-serif;
+  
 }
 .ab-us{
   text-align: center;
@@ -230,6 +231,7 @@
   margin-top: 15px;
   margin-bottom: 10px;
   font-family: "BPG Boxo-Boxo", sans-serif;
+  text-indent: 35px;
 }
 
 .right-block {
@@ -256,10 +258,16 @@ height: 400px;
 
 /* contact section */
 
+.contactB {
+  background-color: #5a5454;
+  max-width: 1600px;
+  width: 100%;
+ 
+}
+
 .map {
   display: flex;
-  justify-content: center;
-  
+ /* justify-content: center;*/
   
 }
 
@@ -282,9 +290,8 @@ height: 400px;
   justify-content: space-around;
   max-width: 1600px;
   width: 100%;
-  margin-left: 130px;
   margin-top: 70px;
-  margin: 10px;
+  background-color: #27065b;
 }
 
 .text-area-form {
@@ -347,7 +354,7 @@ height: 400px;
      .footer-block {
       max-width: 1800px;
       width: 100%;
-      margin-top: 10px;
+      
       color: rgb(15, 15, 15);
       background-color: rgb(187, 185, 185);
       display: flex;
