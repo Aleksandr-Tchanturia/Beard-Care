@@ -204,3 +204,32 @@
         }
     }
     
+    @media (max-width: 1500px) {
+    .color-box-1 {
+        margin-left: 1015px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .color-box-1 {
+        margin-left: 715px;
+    }
+}
+
+@media (max-width: 820px) {
+    .color-box-1 {
+        margin-left: 480px;
+    }
+}
+
+@media (max-width: 620px) {
+    .color-box-1 {
+        margin-left: 315px;
+    }
+}
+
+@media (max-width: 480px) {
+    .color-box-1 {
+        margin-left: 115px;
+    }
+}
